@@ -1,0 +1,16 @@
+spring:
+  mail:
+    host: smtp.naver.com
+    port: 587
+    username: sender@naver.com
+    password: senderpw
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+logging:
+  level:
+    org.springframework.mail: DEBUG
